@@ -1,0 +1,72 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Price Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bike Price Prediction</h1>
+        <form id="price-form">
+            <label for="brand">brand:</label>
+            <input type="text" id="brand" name="brand" required>
+
+
+            <label for="processor_brand">processor_brand:</label>
+            <input type="text" id="processor_brand" name="processor_brand" required>
+
+ 
+
+            <label for="processor_name">processor_name:</label>
+            <input type="text" id="processor_name" name="processor_name" required>
+
+            <label for="processor_gnrtn">processor_gnrtn:</label>
+            <input type="text" id="processor_gnrtn" name="processor_gnrtn" required>
+
+            <label for="ram_gb">ram_gb:</label>
+            <input type="text" id="ram_gb" name="ram_gb" required>
+
+            <label for="ram_type">ram_type:</label>
+            <input type="number" id="ram_type" name="ram_type" required>
+
+            <label for="ssd">ssd:</label>
+            <input type="number" id="ssd" name="ssd" required>
+
+            <label for="hdd">hdd:</label>
+            <input type="number" id="hdd" name="hdd" required>
+
+            <label for="graphic_card_gb">graphic_card_gb:</label>
+            <input type="number" id="graphic_card_gb" name="graphic_card_gb" required>
+
+            <label for="os">os:</label>
+            <input type="number" id="os" name="os" required>
+
+            <label for="os_bit">os_bit:</label>
+            <input type="number" id="os_bit" name="os_bit" required>
+
+            <label for="Touchscreen">Touchscreen:</label>
+            <input type="text" id="Touchscreen" name="Touchscreen" required>
+
+            <label for="msoffice">msoffice:</label>
+            <input type="number" id="msoffice" name="msoffice" required>
+
+            <label for="Number of Ratings">Number of Ratings:</label>
+            <input type="number" id="Number of Ratings" name="Number of Ratings" required>
+            <label for="Number of Reviews">Number of Reviews:</label>
+            <input type="number" id="Number of Reviews" name="Number of Reviews" required>
+
+            
+
+            <button type="button" onclick="predictPrice()">Predict Price</button>
+        </form>
+        <div id="result" class="result">
+            <!-- Prediction result will be displayed here -->
+        </div>
+    </div>
+    
+</body>
+</html>
