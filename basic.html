@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Price Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bike Price Prediction</h1>
+        <form id="price-form">
+            <label for="bike_name">bike_name:</label>
+            <input type="text" id="bike_name" name="bike_name" required>
+
+            <label for="price">price:</label>
+            <input type="text" id="price" name="price" required>
+
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand" name="brand" required>
+
+            <label for="city">city:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="kms_driven">kms_driven:</label>
+            <input type="text" id="kms_driven" name="kms_driven" required>
+
+            <label for="onwer">onwer:</label>
+            <input type="text" id="onwer" name="onwer" required>
+
+            <label for="age">age:</label>
+            <input type="text" id="age" name="age" required>
+
+            <label for="power">power:</label>
+            <input type="number" id="power" name="power" required>
+
+            
+
+            <button type="button" onclick="predictPrice()">Predict Price</button>
+        </form>
+        <div id="result" class="result">
+            <!-- Prediction result will be displayed here -->
+        </div>
+    </div>
+    
+</body>
+</html>
